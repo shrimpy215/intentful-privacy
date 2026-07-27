@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Intentful Planner</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 22px 80px;
+    color: #1f2933;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e8eb; background: #0e1512; }
+    a { color: #4ade80; }
+    h1, h2 { color: #f5f7f5; }
+    .updated { color: #9aa5a0; }
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 34px; }
+  .updated { color: #6b7280; font-size: 0.9rem; margin-top: 0; }
+  .summary { background: rgba(34,197,94,0.10); border-left: 3px solid #22c55e; padding: 14px 18px; border-radius: 8px; margin: 24px 0; }
+  a { color: #16a34a; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  code, .tt { font-size: 0.95em; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Intentful Planner &middot; Last updated: July 2026</p>
+
+<div class="summary">
+<strong>The short version.</strong> Intentful Planner is built to keep your data yours. Everything you enter lives on your device and, if you turn it on, in your own iCloud account &mdash; not on our servers. We don't sell your data, we don't show ads, and we don't use third-party analytics or tracking. Your information only leaves your device when you use the optional AI features or two-way calendar sync, as described below.
+</div>
+
+<h2>1. What this covers</h2>
+<p>This policy describes how the Intentful Planner app (&ldquo;the App&rdquo;) handles your information on iPhone, iPad, and Mac.</p>
+
+<h2>2. Data stored on your device and in your iCloud</h2>
+<p>Everything you enter &mdash; goals, habits, journal entries, priorities, wins, projects, vision-board images, and settings &mdash; is stored locally on your device. If you are signed into iCloud, the App uses Apple's CloudKit to sync this content across your own devices through your private iCloud account. That synced data lives in Apple's iCloud infrastructure under your account; we (the developer) cannot see or access it. Apple's handling of iCloud data is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+
+<h2>3. Calendar and Reminders</h2>
+<p>With your permission, the App reads from and writes to your Apple Calendar and Apple Reminders so your events and tasks stay in one place. This information stays on your device and within your Apple account &mdash; it is not sent to us. You can revoke this access at any time in your device's Settings, and you can disconnect sync from within the App.</p>
+
+<h2>4. AI features (AI Coach and Vision Board)</h2>
+<p>These features are optional. When you use them:</p>
+<ul>
+<li><strong>AI Coach.</strong> The messages you send, and the planner context needed to answer them, are transmitted through our secure proxy service to <a href="https://www.anthropic.com/legal/privacy">Anthropic</a> (the Claude AI provider), which generates the response.</li>
+<li><strong>Vision Board.</strong> The text prompt you provide is transmitted through our proxy to <a href="https://openai.com/policies/privacy-policy/">OpenAI</a> to generate an image.</li>
+</ul>
+<p>Our proxy forwards these requests to the AI provider and returns the result. It does <strong>not</strong> store the content of your prompts or the AI's responses &mdash; it records only operational metadata (such as timestamps, latency, and a non-identifying hashed token used for rate limiting). The AI providers process your request under their own API terms; per those terms, API inputs are not used to train their models. Generated images are stored on your device and in your iCloud like your other content.</p>
+<p><strong>Bring your own key.</strong> If you enter your own API key in Settings, those requests go directly from your device to the provider and do not pass through our proxy. Your API keys are stored securely in your device's Keychain and are never sent to us.</p>
+
+<h2>5. Subscriptions and purchases</h2>
+<p>Optional Pro features are unlocked through a subscription managed entirely by Apple through the App Store. We do not receive or store your payment information. To confirm an active subscription for the AI features, the App sends Apple's signed transaction record to our proxy for authentication; this contains no personal payment details, and we log only a hashed, non-identifying token derived from it.</p>
+
+<h2>6. What we can and cannot see</h2>
+<p>We do not have access to your planner content, your journal, your calendar or reminders, or your iCloud data. Our servers exist only to relay the optional AI requests and to verify subscriptions, and they are configured to log metadata only &mdash; never the content of your entries, messages, or generated images.</p>
+
+<h2>7. Advertising, analytics, and diagnostics</h2>
+<p>The App contains no advertising and no third-party analytics or tracking. We do not sell, rent, or share your personal data. If you choose to share diagnostics with developers (an Apple setting), Apple may provide us with crash and performance reports; these help us fix problems and contain no personal content from your planner.</p>
+
+<h2>8. Third-party services we rely on</h2>
+<p>The App relies on Apple (iCloud sync, the App Store, and subscriptions), Anthropic (AI Coach), OpenAI (Vision Board image generation), and Amazon Web Services (hosting our proxy). Each processes data under its own privacy policy.</p>
+
+<h2>9. Your controls and data retention</h2>
+<p>Because your content lives on your device and in your iCloud, you stay in control of it. You can delete individual items; use <strong>Delete All Data</strong> in Settings to erase everything (which also removes it from your iCloud); disconnect Calendar and Reminders sync; revoke permissions in your device Settings; and manage or cancel your subscription through Apple. We do not retain your content on our servers.</p>
+
+<h2>10. Children</h2>
+<p>The App is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy as the App evolves. Material changes will be reflected here with a new &ldquo;last updated&rdquo; date.</p>
+
+<h2>12. Contact</h2>
+<p>Questions about this policy or your data? Email us at <a href="mailto:intentplansandbox@gmail.com">intentplansandbox@gmail.com</a>.</p>
+
+</body>
+</html>
